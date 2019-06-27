@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Login_Dark_Theme.jnlp">
+  <information>
+    <title>Login_Dark_Theme</title>
+    <vendor>SYOM</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Login_Dark_Theme.jar" size="86019" download="eager" />
+    <jar href="lib\jfoenix-9.0.6.jar" size="2374031" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Login_Dark_Theme" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="login_dark_theme.Login_Dark_Theme"  name="Login_Dark_Theme" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="parent" prefHeight="400.0" prefWidth="750.0" style="-fx-background-color: #20120F;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login_dark_theme.FXMLDocumentController">
+   <children>
+      <ImageView fitHeight="428.0" fitWidth="750.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/b.jpg" />
+         </image>
+      </ImageView>
+      <AnchorPane layoutX="427.0" layoutY="40.0" prefHeight="320.0" prefWidth="295.0" style="-fx-background-color: #1C2836;">
+         <children>
+            <JFXTextField focusColor="#3cc555" layoutX="32.0" layoutY="97.0" prefHeight="25.0" prefWidth="232.0" promptText="username/email" unFocusColor="#d0cbcb" />
+            <JFXPasswordField focusColor="#13bf21" layoutX="32.0" layoutY="150.0" prefHeight="25.0" prefWidth="232.0" promptText="password" unFocusColor="#ababab" />
+            <JFXButton layoutX="32.0" layoutY="209.0" prefHeight="25.0" prefWidth="232.0" style="-fx-background-color: #E45652;" text="Button" textFill="WHITE" />
+            <Label layoutX="121.0" layoutY="45.0" text="Sign In" textFill="#d0cccc">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Label>
+            <Hyperlink layoutX="97.0" layoutY="252.0" text="Forgot Password?" textFill="#d0cccc" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="54.0" layoutY="174.0" text="Welcome!" textFill="WHITE">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="36.0" />
+         </font>
+      </Label>
+      <JFXButton layoutX="54.0" layoutY="256.0" prefHeight="25.0" prefWidth="150.0" style="-fx-background-color: #DCDDE2;" text="Sign Up" textFill="#d42630" />
+      <Label layoutX="54.0" layoutY="220.0" prefHeight="17.0" prefWidth="338.0" text="Join our community today..." textFill="WHITE" />
+      <Label fx:id="closeBtn" layoutX="728.0" onMouseClicked="#handleClose" onMousePressed="#handleClose" prefHeight="39.0" prefWidth="16.0" text="X" textFill="#fffdfd">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
